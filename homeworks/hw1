@@ -5,7 +5,6 @@ transportation_cost = float(input("Enter your transportation cost (THB): "))
 entertainment_budget = int(input("Enter your entertainment budget (THB): "))
 emergency_fund_percent = float(input("Enter emergency fund percentage (%): "))
 investment_percent = float(input("Enter investment percentage (%): "))
-
 total_fixed_expenses = rent_cost + transportation_cost
 total_variable_expenses = food_budget + entertainment_budget
 total_expenses = total_fixed_expenses + total_variable_expenses
